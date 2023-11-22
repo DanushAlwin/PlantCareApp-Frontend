@@ -1,0 +1,49 @@
+/* Carousel container */
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #cfe1d5;
+}
+
+/* Carousel content */
+.carousel-content {
+  flex: 1;
+  text-align: center;
+}
+
+/* Images inside the carousel */
+.page img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Previous and Next buttons */
+.carousel-buttons-left,
+.carousel-buttons-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: rgb(135, 170, 130);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

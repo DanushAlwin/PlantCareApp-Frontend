@@ -1,0 +1,67 @@
+/* Add this CSS to a separate CSS file, e.g., settings.css */
+
+
+
+  
+  .plant-box-container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three items in each row */
+    gap: 16px;
+    width: 70%;
+    margin-top: 50px;
+    
+    margin-left: 350px;
+    position: relative;
+    height: 100%;
+  }
+  
+  
+  .plant-box {
+    
+    margin-bottom: 20px; /* Adjust the margin between boxes */
+    border: 1px solid #ccc;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    background-color: #fff;
+  }
+  
+  .main-wrapper-plant .plant-box:hover {
+    transform: scale(1.10); /* Adjust the scale factor for hover effect */
+  }
+  
+  .plant-box img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .plant-box h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .plant-box p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .plant-box button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #de7ba1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .plant-box button:hover {
+    background-color: #0056b3;
+  }
+  

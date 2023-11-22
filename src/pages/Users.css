@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Main container styles */
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .welcome-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* File input styles */
+  input[type="file"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  label:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Display the selected image */
+  img {
+    max-width: 100%;
+    margin: 20px 0;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .main-wrapper {
+      flex-direction: column;
+    }
+  
+    .welcome-container {
+      width: 100%;
+      margin: 20px;
+    }
+  }
+  
